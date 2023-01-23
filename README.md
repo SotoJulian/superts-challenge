@@ -6,8 +6,6 @@
 - PostgreSQL or MongoDB
 - Docker
 
----
-
 ## :rocket: Config
 
 `npm init -y`
@@ -18,21 +16,21 @@
 
 Tal cual su nombre lo describe, `tsconfig` nos provee de numerosas configuraciones comentadas, de las cuales, sólo tomaremos en cuenta para esta guía las siguientes:
 
-### - `moduleResolution`
+- `moduleResolution`
 
 Indica la estrategia que Typescript tomará para resolver los modulos, por defecto usaremos: `moduleResolution: node`
 
-### - `outDir`
+- `outDir`
 
 Hacia que directorio se emitirán los archivos transpilados una vez ejecutemos Typescript.
 
 En este proyecto usaremos: `outDir: ./dist/src/`
 
-### - `include`
+- `include`
 
 Directorios que el compilador tendra en cuenta a la hora de transpilar a Javascript.
 
-### - `exclude`
+- `exclude`
 
 Directorios que el compilador no tendra en cuenta.
 
