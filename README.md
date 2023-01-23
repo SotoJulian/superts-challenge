@@ -36,6 +36,8 @@ Directorios que el compilador no tendra en cuenta.
 
 > Estos dos ultimos no se encuentran comentados en `tsconfig.json`
 
+En resumen, include y exclude deberian [verse asi](https://imgur.com/KRlXC7Y)
+
 ### Inside `package.json`
 
 Antes de iniciar el proyecto, debemos establecer en los scripts un parametro de lanzamiento que transpile nuestro código de Typescript a Javascript (siguiendo la configuracion de `outDir`) asegurándonos de siempre que usemos ya sea `npm run start` o `npm run dev` este proceso lo realice automáticamente.
